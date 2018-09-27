@@ -1,0 +1,40 @@
+.gray_loader_frame {
+    transition:opacity 80ms;
+}
+
+.no_opacity {
+    opacity:0;
+}
+
+.sortV3PageSelectSlider {
+    width: calc(100% - 120px);
+}
+
+.sortV3PageSelectText {
+    width:100px;
+}
+
+.appsList {
+    transition:opacity 130ms;
+}
+
+.appsListHiddenNew {
+    opacity:0;
+}
+
+.fakeSortBtn {
+    opacity:0;
+    pointer-events: none;
+}
+
+.spaceForSearchMobile {
+    height:56px;
+}
+
+.searchButtonCollapse {
+    transform: scale(0);
+}
+
+.addBtnAdded {
+    border: 2px solid rgb(121, 121, 121);background-color: #4e4e4e;
+}

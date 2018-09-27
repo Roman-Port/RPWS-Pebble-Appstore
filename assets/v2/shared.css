@@ -1,0 +1,17 @@
+
+/* Define some fonts */
+
+@font-face {
+    font-family: d-din;
+    src: url(../../resources/font/D-DIN.WOFF);
+}
+
+@font-face {
+    font-family: d-din-cond;
+    src: url(../../resources/font/D-DINCondensed.WOFF);
+}
+
+@font-face {
+    font-family: d-din-exp;
+    src: url(../../resources/font/D-DINExp.WOFF);
+}

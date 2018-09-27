@@ -1,0 +1,43 @@
+.viewman_view {
+    display:none;
+}
+
+.vloader_loader_screen {
+    position:fixed;
+    z-index:9999;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:white;
+    transition:opacity 100ms;
+    opacity:0;
+    pointer-events: none;
+}
+
+.vloader_loader_screen_active {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.toast_message {
+    background-color: #ec3939;
+    color:white;
+    max-height: 0;
+    transition:all 400ms;
+    transition-timing-function:linear;
+    text-align: center;
+    font-size:15px;
+    font-family: 'd-din';
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.toast_message_inner {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.toast_message_drop {
+    max-height:80px;
+}

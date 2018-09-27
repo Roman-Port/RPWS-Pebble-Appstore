@@ -1,0 +1,371 @@
+/*This CSS is loaded and replaces a few things in the mobile CSS */
+
+.header {
+	width:100%;
+	text-align:center;
+	height:100px;
+	font-family: 'Roboto',sans-serif;
+	font-weight:100;
+}
+
+
+.global_footer {
+	height:20px;
+	width:100%;
+	position:fixed;
+	background-color:#282828;
+	font-family: 'Roboto',sans-serif;
+	font-weight:100;
+	color:white;
+	font-size:13px;
+	text-align:center;
+	line-height:20px;
+	bottom:0;
+}
+
+
+
+.search {
+	float:right;
+	height:100%;
+	
+	width:240px;
+}
+
+
+
+.filter_area {
+	width:455px;
+	height:100%;
+	float:right;
+	margin-right:15px;
+}
+
+.HorizGray {
+	width:100%;
+	height:130px;
+	padding-top:15px;
+	background-color:#484848;
+}
+
+.watch_selector {
+	height:100%;
+	width:180px;
+	float:left;
+	margin-right:20px;
+}
+
+.search_entry {
+	width:200px;
+	height:100%;
+	
+	float:right;
+}
+
+.main_container {
+	border-radius:0px;
+	max-width:800px;
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+
+.modal-content {
+    width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+
+/* This bit below will remove the annoying margin on top when on smaller screens. Intended for mobile users.*/
+@media only screen 
+and (max-width : 800px) {
+    .main_container {
+		margin-top:0;
+		margin-bottom:0;
+	}
+
+	.modal-content {
+		margin-top:0;
+		margin-bottom:0;
+	}
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width:100%;
+	
+}
+
+body {
+	/*background-color:#e8ebed;*/
+	background-color:#e0e3e4;
+}
+
+li {
+}
+
+.large_info_container {
+	width:490px;
+	margin-left: calc(50% - 245px);
+	margin-top:100px;
+	height:800px;
+	border-radius:10px;
+	overflow:hidden;
+	background-color:#e5e5e5;
+}
+
+
+.app_group {
+	width:calc(100% - 20px);
+	padding-left:10px;
+	padding-right:10px;
+	min-height:39px;
+	color:black;
+	font-size:20px;
+	text-align:left;
+	font-family: 'Roboto',sans-serif;
+	transition:all 1000ms;
+	
+	overflow:hidden;
+}
+
+.app_group_deactive {
+	max-height:39px;
+}
+
+.app_group_line {
+	height:10px;
+	border-radius:5px;
+	width:100%;
+	background-color:gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+.app_fullcard_description {
+	min-height:10vh;
+}
+
+
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@-webkit-keyframes fadeOut {
+    from {opacity: 1} 
+    to {opacity: 0}
+}
+
+@keyframes fadeOut {
+    from {opacity: 1} 
+    to {opacity: 0}
+}
+
+
+#mobile_search {
+	display:none;
+}
+
+
+
+
+
+.watchface_subtext {
+	font-size:15px;
+}
+
+
+
+@media screen and (min-width: 600px) { 
+	/* Only shrink watchface bodies if the width is greater than 600px.*/
+	.watchface_body {
+		width:calc((100% / 3) - 100px);
+		margin:50px;
+		margin-bottom:10px;
+		cursor:pointer;
+		margin-top:10px;
+	}
+}
+
+.drop_shadow {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.pebble_classic_button_sbs {
+	width:300px;
+	cursor:pointer;
+}
+
+.bottom_footer {
+	display:block;
+	margin:auto;
+	margin-bottom:30px;
+	font-size:14px;
+	color:#212121;
+	max-width:500px;
+	width:100%;
+	text-align:center;
+	height:auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.bottom_footer a {
+	color:#212121;
+}
+
+.bottom_footer span {
+	/*font-size:12px;*/
+	display:inline-block;
+}
+
+.main_chooser {
+	width:100%;
+	background-color: #f3f3f3;
+	height:60px;
+	display:block;
+}
+
+
+
+
+
+.applist_sort_new {
+	height:0px;
+	padding:0px;
+	display:none;
+}
+
+
+.newSortInnerContainer {
+	max-width:800px;
+	margin:auto;
+}
+
+.headerV3 {
+	height:30px;
+	font-size:15px;
+	color:white;
+	line-height:30px;
+}
+
+.app_fullcard_screenshots {
+	background-color:transparent;
+}
+
+
+
+/* Just for setting cursors */
+
+.app_container {
+	cursor:pointer;
+}
+
+.app_fullcard_footerButton{
+	cursor:pointer;
+}
+
+.main_chooser_item {
+	cursor:pointer;
+}
+
+#add_btn_animation {
+	cursor: pointer; 
+}
+
+
+.app_fullcard_screenshots_img {
+	margin-left:0px;
+}
+
+.carousel-cell {
+}
+
+.flickity-viewport {
+	height:300px;
+}
+
+.mobileHidden {
+	display:block;
+}
+
+.desktopHidden {
+	display:none;
+}
+
+.app_fullcard_description_details {
+	min-height:60px; padding-top:20px; color:gray;
+}
+
+#shareBtn {
+	display:block;
+}
+
+#embedBtn {
+	display:block;
+}
+
+.frontpage_sections_expanded {
+	min-height:0px;
+}
+
+.frontpage_sections_shrunk {
+	min-height:0px;
+}
+
+.desktopOnly {
+	display:block;
+}

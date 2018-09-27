@@ -1,0 +1,132 @@
+.carousel-cell {
+    width:100%;
+    max-width:600px;
+    
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height:auto;
+    overflow: hidden;
+    /*filter: brightness(70%);
+    transition: filter 500ms;*/
+}
+
+
+
+.frontpage_app_banner_img {
+    width:100%;
+}
+
+.flickity-page-dots {
+    bottom:20px;
+}
+
+.flickity-page-dots .dot {
+    transition:opacity 200ms;
+}
+
+.frontpage_app_banner_container {
+    width:100%;
+    height:auto;
+    margin-top:30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .frontpage_app_banner_container {
+        margin-top:0px;
+    }
+}
+
+.main_container {
+    padding:5px;
+    max-width: 790px;
+    width: calc(100% - 10px);
+}
+
+.frontpage_category_container {
+    margin-top:5px;
+    position: relative;
+}
+
+.frontpage_category_container_title {
+    font-size:15px;
+    font-weight: bold;
+    
+}
+.frontpage_category_container_top {
+    width:100%;
+    height:20px;
+    position: relative;
+    line-height:20px;
+}
+
+.frontpage_category_container_top_viewmore {
+    color:#565656;
+    position: absolute;
+    right:5px;
+    top:0;
+    height:100%;
+    text-decoration: underline;
+}
+
+.frontpage_miniapp_container {
+    height:60px;
+    padding:15px;
+    width:250px;
+    background-color: #e4e7ea;
+    margin:5px;
+    display:inline-block;
+    min-width: 140px;
+    width:calc(33% - 40px);
+    text-align: left;
+}
+
+.frontpage_miniapp_container_fill {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: calc(100% - 45px);
+    width: calc(100% - 30px);
+}
+
+.frontpage_miniapp_img {
+    float:left;
+    height:40px;
+    width:40px;
+    margin-top:10px;
+}
+
+.frontpage_miniapp_meta {
+    width:calc(100% - 50px);
+    margin-left:10px;
+    height:100%;
+    float:right;
+    position: relative;
+    line-height: 17px;
+}
+
+.app_fullcard_heart_container {
+    height:20px;
+}
+
+.frontpage_miniapp_meta_name {
+    font-size:15px;
+    font-weight: bold;
+}
+
+.horiz_line {
+    background-color:#ff4700;
+    width:100%;
+    height:1px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.fakePad {
+    padding-left:5px;
+    padding-right:5px;
+}
